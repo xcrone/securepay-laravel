@@ -1,12 +1,12 @@
 {
-    "name": "glsb-my/securepay-laravel",
-    "description": "",
+    "name": "xcrone/securepay-laravel",
+    "description": "SecurePay for Laravel",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "aqhmal",
-            "email": "aqhmal@glsb.my"
+            "name": "xcrone",
+            "email": "mail@zahir.my"
         }
     ],
     "require": {
@@ -18,7 +18,7 @@
             "src/Support/helpers.php"
         ],
         "psr-4": {
-            "Glsb\\SecurePay\\": "src/"
+            "Xcrone\\SecurePay\\": "src/"
         }
     },
     "config": {
@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Glsb\\SecurePay\\SecurePayServiceProvider"
+                "Xcrone\\SecurePay\\SecurePayServiceProvider"
             ]
         }
     },

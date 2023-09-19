@@ -1,6 +1,6 @@
 <?php
 
-namespace Glsb\SecurePay\Facades;
+namespace Xcrone\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

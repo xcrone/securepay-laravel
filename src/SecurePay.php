@@ -1,8 +1,8 @@
 <?php
 
-namespace Glsb\SecurePay;
+namespace Xcrone\SecurePay;
 
-use Glsb\SecurePay\Exceptions\InvalidCredentialException;
+use Xcrone\Exceptions\InvalidCredentialException;
 use GuzzleHttp\Client;
 use Illuminate\Support\Arr;
 
@@ -108,7 +108,7 @@ class SecurePay
      *
      * @return void
      *
-     * @throws \Glsb\SecurePay\InvalidCredentialException
+     * @throws \Xcrone\InvalidCredentialException
      */
     private function validateApiCredential()
     {

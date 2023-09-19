@@ -1,6 +1,6 @@
 <?php
 
-namespace Glsb\SecurePay\Exceptions;
+namespace Xcrone\Exceptions;
 
 use Exception;
 

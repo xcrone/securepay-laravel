@@ -1,6 +1,6 @@
 <?php
 
-namespace Glsb\SecurePay;
+namespace Xcrone\SecurePay;
 
 use Illuminate\Support\ServiceProvider;
 

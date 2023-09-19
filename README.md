@@ -12,7 +12,7 @@ SECUREPAY_CHECKSUM_TOKEN=
 
 Optionally, you can add the alias as below n `config/app.php`:-
 ```php
-'SecurePay' => Glsb\SecurePay\Facades\SecurePay::class
+'SecurePay' => Xcrone\Facades\SecurePay::class
 ```
 
 ### Laravel without auto-discovery
@@ -20,13 +20,13 @@ Optionally, you can add the alias as below n `config/app.php`:-
 If you don't use auto-discovery, add the ServiceProvider to the providers array in `config/app.php`.
 
 ```php
-Glsb\SecurePay\SecurePayServiceProvider::class
+Xcrone\SecurePayServiceProvider::class
 ```
 
 #### Copy the package config to your local config with the publish command
 
 ```bash
-php artisan vendor:publish --provider="Glsb\SecurePay\SecurePayServiceProvider"
+php artisan vendor:publish --provider="Xcrone\SecurePayServiceProvider"
 ```
 
 ## Usage Example
@@ -34,7 +34,7 @@ php artisan vendor:publish --provider="Glsb\SecurePay\SecurePayServiceProvider"
 ### Create a new payment
 
 ```php
-use Glsb\SecurePay\SecurePay;
+use Xcrone\SecurePay;
 use Illuminate\Http\Request;
 
 /**
